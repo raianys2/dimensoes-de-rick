@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 14vh; /* Adicione uma margem inferior para dar espaço ao footer */
+    position: relative; /* Adicione esta propriedade */
+}
+
+header {
+    background-color: #000000b5;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 7vh;
+    color: rgb(238, 231, 238);
+}
+
+main {
+    text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente o elemento main */
+    height: 100vh;
+    padding: 3vw 2vw 0vw 2vw;
+    display: block;
+}
+
+.texto {
+    color: rgb(2, 2, 2);
+    font-size: 5vh;
+}
+
+footer {
+    width: 100vw;
+    height: 14vh;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: aliceblue;
+}
+
+button {
+    background-color: #abd176b1;
+    border: 1px solid black;
+    padding: 10px 10px;
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s, background-color 0.5s;
+    border-radius: 90px;
+    width: 19vw;
+    height: 16vh;
+}
+
+button:hover {
+    background-color: #97CE4C;
+}
+
+.botões {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+}
+.centro {
+    background-color: rgba(244, 244, 244, 0.701);
+    margin: 0vh 18vw 2vh 18vw;
+    padding: 50px;
+}
+
+.texto2 {
+    font-size: 4vh;
+}
