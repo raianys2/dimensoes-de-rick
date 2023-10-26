@@ -44,7 +44,7 @@ main {
 
 footer {
     width: 100vw;
-    height: 19vh;
+    height: 22vh;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .texto2 {
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 .redes-sociais img {
@@ -87,4 +87,7 @@ button:hover {
 .rodape {
     color: rgb(255, 255, 255);
     margin: 9px;
+}
+a {
+    text-decoration: none;
 }
